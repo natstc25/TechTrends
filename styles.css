@@ -1,0 +1,229 @@
+body {
+    background-color: rgba(202, 214, 209, 0.875);
+}
+
+/* Images */
+
+#imageDigital {
+    margin-right: 25%;
+    border-radius: 10%;
+    float: right;
+    width: 459px;
+    height: 306px;
+}
+
+#imageAR {
+    margin-right: 40%;
+    border-radius: 10%;
+    float: right;
+    width: 427px;
+    height: 250px;
+}
+
+#imageVR {
+    margin-right: 18%;
+    border-radius: 10%;
+    float: right;
+    width: 400px;
+    height: 317px;
+}
+
+#imageAI {
+    margin-right: 25%;
+    border-radius: 10%;
+    float: right;
+    width: 463px;
+    height: 286px;
+}
+
+#imageQuantum {
+    margin-right: 25%;
+    border-radius: 10%;
+    float: right;
+    width: 525px;
+    height: 294px;
+}
+
+#imageCloud {
+    margin-right: 25%;
+    border-radius: 10%;
+    float: right;
+    width: 450px;
+    height: 336px;
+}
+
+#imageEV {
+    margin-right: 17%;
+    border-radius: 10%;
+    float: right;
+    width: 700px;
+    height: 394px;
+}
+
+#imageRenewable {
+    margin-right: 25%;
+    border-radius: 10%;
+    float: right;
+    width: 448px;
+    height: 350px;
+}
+
+/* Links */
+
+.Links {
+    font-family: "Leto" sans-serif;
+    font-size: 24px;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+a:link{
+    color:rgb(207, 77, 247);
+}
+a:visited{
+    color:rgb(120, 61, 120);
+}
+a:hover{
+    color:orange;
+}
+a:focus{
+    color:rgb(109, 89, 200);
+}
+a:active{
+    color:red;
+}
+
+/* Text Properties */
+
+#Head1 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+}
+
+.List {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.ArticleHeader {
+    margin-left: 125px;
+    font-size: 30px;
+    font-family: "Leto", sans-serif;
+    margin-left: 125px;
+}
+
+.Header {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.SubHeader {
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    text-align: left;
+    margin-left: 125px;
+}
+
+.MainPara {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    text-indent: 25px;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+.Para {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+hr.seperator {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 5px solid rgb(91, 191, 231);
+    border-radius: 5px;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+/* Google Map */
+
+#google-Map {
+    border:0;
+    margin-right: auto;
+    margin-left: 33%;
+    align-content: center;
+}
+
+/* Hamburger menu */
+
+#menu-Button {
+    font-size:50px;
+    cursor:pointer;
+    position: fixed;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+  
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    font-family: "Lato", sans-serif;
+}
+  
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+  
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+  
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
